@@ -1,0 +1,124 @@
+@import "../bower_components/bootstrap/less/bootstrap.less";
+@import "../bower_components/font-awesome/less/font-awesome.less";
+
+@icon-font-path: '../bower_components/bootstrap/fonts/';
+@fa-font-path: '../bower_components/font-awesome/fonts/';
+@carousel-control-width: 40px;
+
+nav .row {
+  display: flex;
+  align-items: center;
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.home-link {
+  margin: auto;
+  text-align: center;
+  font-size: 3.25em;
+  :hover {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 25px;
+  }
+}
+
+.top-nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.category-link {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+
+  :hover {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: @screen-sm-max) {
+    font-size: 12px;
+  }
+}
+
+.category {
+  > header {
+    font-size: 2em;
+    background-color: #f64747;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    h1 {
+      font-size: 2em;
+    }
+  }
+}
+
+.post-group {
+  padding-top: 20px;
+  > article {
+    padding-top: 20px;
+  }
+}
+
+.slide-caption {
+  text-align: center;
+  padding-right: 30px;
+}
+
+.post {
+  padding-top: 40px;
+  > header {
+    text-align: center;
+  }
+}
+
+.post-image {
+  background-size: cover;
+  height: 450px;
+}
+
+.post-content {
+  padding-top: 40px;
+}
+
+.btn-transparent {
+  .btn-default;
+  background-color: transparent;
+  color: @carousel-caption-color;
+}
+
+.btn-social {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.carousel-control {
+  &.left, &.right {
+    background-image: none;
+    .reset-filter();
+  }
+}
+
+.carousel-caption {
+  left: auto;
+  right: 20px;
+  top: 20px;
+  bottom: auto;
+}
+
+.subtitle > span {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.social {
+  width: 100%;
+  padding-top: 10px;
+}
