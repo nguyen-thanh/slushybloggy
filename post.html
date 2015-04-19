@@ -3,6 +3,7 @@
 <head>
   <title>Page Title</title>
   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet/less" type="text/css" href="less/app.less">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" id="google_fonts-css" href="//fonts.googleapis.com/css?family=Raleway|Open+Sans:400,400italic,700,700italic" type="text/css" media="all">
 
@@ -28,7 +29,7 @@
 <body>
   <header>
     <nav class="top-nav">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-md-5 col-sm-5 col-xs-4">
             <div class="row">
@@ -47,8 +48,8 @@
       </div>
     </nav>
   </header>
-  <div class="container-fluid">
-    <div class="post-image" style="background:url(http://slushybloggy.com/wp-content/uploads/2015/01/MG_7977.jpg) no-repeat center center;"></div>
+  <main class="container">
+    <div class="post-image" style="background-image:url(http://slushybloggy.com/wp-content/uploads/2015/01/MG_7977.jpg);"></div>
     <section class="post">
       <header>
         <h1>Post Title</h1>
@@ -65,10 +66,15 @@
         <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
         <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-        <p>To avoid confusion regarding which bootstrap-sass release(s) correspond to which upstream Bootstrap release, Bootstrap's version numbering will henceforth skip over any bootstrap-sass patch release version numbers. Thus, the patch digit (i.e. the 3rd digit) of bootstrap-sass's version number may be ahead of Bootstrap's due to Sass-specific fixes, and the next Bootstrap release's number will always be greater than the previous bootstrap-sass release's number.<
+        <p>To avoid confusion regarding which bootstrap-sass release(s) correspond to which upstream Bootstrap release, Bootstrap's version numbering will henceforth skip over any bootstrap-sass patch release version numbers. Thus, the patch digit (i.e. the 3rd digit) of bootstrap-sass's version number may be ahead of Bootstrap's due to Sass-specific fixes, and the next Bootstrap release's number will always be greater than the previous bootstrap-sass release's number.</p>
       </div>
     </section>
-  </div>
+  </main>
+  <aside class="social-share">
+    <a class="btn btn-primary btn-lg btn-share"><i class="fa fa-facebook fa-lg">  </i></a>
+    <a class="btn btn-info btn-lg btn-share"><i class="fa fa-twitter fa-lg"></i></a>
+    <a class="btn btn-danger btn-lg btn-share"><i class="fa fa-google-plus fa-lg"></i></a>
+  </aside>
 </body>
 
 </html>
