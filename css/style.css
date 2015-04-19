@@ -8376,7 +8376,7 @@ nav .row > div {
   font-family: 'Refuse', sans-serif;
   margin: auto;
   text-align: center;
-  font-size: 3.25em;
+  font-size: 4.25em;
   text-transform: uppercase;
   /*@media (max-width: @screen-sm-max) {
     font-size: 25px;
@@ -8391,7 +8391,7 @@ a:focus {
   padding-bottom: 20px;
 }
 .category-link {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin: auto;
   vertical-align: middle;
