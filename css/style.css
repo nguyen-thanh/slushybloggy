@@ -8378,11 +8378,9 @@ nav .row > div {
   text-align: center;
   font-size: 3.25em;
   text-transform: uppercase;
-}
-@media (max-width: 991px) {
-  .home-link {
+  /*@media (max-width: @screen-sm-max) {
     font-size: 25px;
-  }
+  }*/
 }
 a:hover,
 a:focus {
@@ -8397,11 +8395,9 @@ a:focus {
   text-align: center;
   margin: auto;
   vertical-align: middle;
-}
-@media (max-width: 991px) {
-  .category-link {
+  /*@media (max-width: @screen-sm-max) {
     font-size: 12px;
-  }
+  }*/
 }
 .overlay {
   z-index: 998;
