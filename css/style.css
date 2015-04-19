@@ -8505,7 +8505,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 .carousel-caption {
   left: auto;
-  right: 20px;
+  right: 30px;
   top: 20px;
   bottom: auto;
   z-index: 1000;
