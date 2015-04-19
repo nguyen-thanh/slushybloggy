@@ -8350,6 +8350,10 @@ button.close {
 .fa-medium:before {
   content: "\f23a";
 }
+@font-face {
+  font-family: 'Refuse';
+  src: url('../fonts/REFUSETR.TTF') format('truetype');
+}
 nav .row {
   display: flex;
   align-items: center;
@@ -8359,9 +8363,11 @@ nav .row > div {
   flex-direction: column;
 }
 .home-link {
+  font-family: 'Refuse', sans-serif;
   margin: auto;
   text-align: center;
   font-size: 3.25em;
+  text-transform: uppercase;
 }
 @media (max-width: 991px) {
   .home-link {
@@ -8511,6 +8517,10 @@ fieldset[disabled] .btn-transparent.active {
     padding-left: 50px;
     padding-right: 50px;
   }
+}
+#about-us {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 #about-us > h1 {
   text-align: center;
